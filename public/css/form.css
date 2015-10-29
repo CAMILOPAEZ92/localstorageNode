@@ -1,0 +1,54 @@
+body {
+    font-family: "tempus Sans ITC";
+    font-weight: 300;
+    font-size: 12px;
+    background: rgba(169,3,41,1);
+    background: url(../img/fondo.jpg)
+}
+
+a:link {
+    outline: none;
+}
+h1 {
+    font-weight: 100;
+    font-size: 72px;
+    margin: 20px 0;
+}
+#container {
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+input[type="text"] {
+    height: 30px;
+    width: 350px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+
+ul {
+    margin: 15px auto 0;
+    padding: 0;
+    width: 545px;
+}
+ul li {
+    list-style-type: none;
+    font-size: 24px;
+    background-color: #efefef;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+ul li span {
+    cursor: text;
+}
+ul li a,
+
+ul li a:link {
+    float: right;
+    display: none;
+    text-decoration: none;
+    color: #f03;
+}
